@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bssbpd^e%ir*%dm!gntjirv#tmuy_l@j0blxh%1ww@@cm_^)bl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://womenchatbot.onrender.com",'127.0.0.1']
 
 
 # Application definition
@@ -71,7 +71,7 @@ TEMPLATES = [
 ]
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000', 
-    'womenchatbot.onrender.com',# React's default port
+    "https://womenchatbot.onrender.com",# React's default port
 ]
 WSGI_APPLICATION = 'womenchatbot.wsgi.application'
 
