@@ -70,7 +70,8 @@ TEMPLATES = [
     },
 ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # React's default port
+    'http://localhost:3000', 
+    'womenchatbot.onrender.com',# React's default port
 ]
 WSGI_APPLICATION = 'womenchatbot.wsgi.application'
 
